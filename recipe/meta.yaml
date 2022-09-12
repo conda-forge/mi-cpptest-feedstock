@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: mi-cpptest
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/metno/mi-cpptest/archive/v{{ version }}.tar.gz
-  sha256: e4c429f92953a28e2b17a6cdd561545e710856e8730016b4c31720ea7926c725
+  sha256: 96f3e0e95a5634b3db773f4ca2e2d8b248647518b5eca57a529b233992c1105e
   folder: source
 
 build:
@@ -28,7 +28,7 @@ about:
   home: https://github.com/metno/mi-cpptest
   license: GPL-2.0-or-later
   license_file: source/LICENSE.txt
-  summary: 'MET Norway C++ unit test library'
+  summary: MET Norway C++ unit test library
 
 extra:
   recipe-maintainers:
